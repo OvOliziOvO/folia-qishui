@@ -1,0 +1,9 @@
+[package]
+name = "folium-soda-bridge"
+version = "0.5.0"
+edition = "2021"
+
+[dependencies]
+libresoda = { git = "https://github.com/sodahub-org/libresoda.git", rev = "928797d0cd30469c31b2b8fca4f460be88d248c6" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

@@ -1,0 +1,17 @@
+{
+  "folium": 1,
+  "id": "folium-soda-qishui",
+  "name": "汽水音乐",
+  "version": "0.5.0",
+  "author": "Community adapter",
+  "description": "适配汽水音乐",
+  "main": "index.cjs",
+  "client": "client.mjs",
+  "experimental": [
+    "omni.providers"
+  ],
+  "folia": "0.7.20",
+  "permissions": [
+    "filesystem.data"
+  ]
+}
